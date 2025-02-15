@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* dark-02 color */
+.dark-grey{
+    color: #424242
+}
+/* darl-03 color */
+.simple-dark-grey{
+    color: #727272;
+}
+/* nav styles */
+.nav-section{
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+.nav-sec{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: ;
+
+}
+.nav-title{
+    color: #131313;
+    font-weight: bold; 
+    font-size: 2.8rem;
+
+}
+.nav-list{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: medium;
+    
+
+}
+.nav-list > li > a{
+    text-decoration: none;
+    color: #727272;
+    
+}
+/* banner style */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+    color: #131313;
+    text-align: center;
+    margin-top: 102px;
+}
+.banner-describtion{
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: #FF900E;
+    padding: 21px 25px;
+    border: none;
+    border-radius: 8px;
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.banner-img img{
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .nav-list {
+        margin-top: 20px;
+        gap: 25px;
+    }
+    .nav-sec{
+        display: flex;
+        flex-direction:column ;
+
+    }
+    .banner-title{
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .banner-describtion{
+        padding: 0px 10px;
+        
+    }
+    
+    
+}
+@media screen and (min-width : 576px) and ( max-width : 992px) {
+    
+    
+}
