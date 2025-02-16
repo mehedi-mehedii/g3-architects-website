@@ -278,7 +278,30 @@
     font-size: 1.5rem;
     font-weight: 500;
 }
-
+/* footer sec style */
+.footer{
+    max-width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    margin: 130px auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+}
+.footer-describtion{
+    color: #424242;
+    font-weight: 400;
+    font-size: 1.25rem;
+   
+    
+    
+}
 
 @media screen and (max-width: 576px) {
     /* nav responsive */
@@ -308,6 +331,7 @@
     .banner-img img{
         width: 100%;
     }
+        
     /* features responsive */
     .features-image{
         grid-template-columns: repeat(1 , 1fr);
@@ -358,6 +382,7 @@
     }
     .enjoy-picture-architects > div > img {
         width: 100%;
+        
     }
     .card-container{
         width: 350px;
