@@ -190,6 +190,96 @@
     display:none;
 }
 
+/* love and enjoy section */
+.enjoy-sec{
+    max-width: 1440px;
+    margin: 0px auto;
+    margin-top: 130px;
+}
+#title-enjoy{
+    border-left: 5px solid #FF900E;
+   
+}
+.enjoy-title{
+    font-size: 2.8rem ;
+    font-weight: bold;
+    color: #131313;
+    padding-left: 20px;
+    margin-bottom: 24px;
+
+
+}
+.enjoy-describtion{
+    font-size: 1rem ;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 30px;
+    text-align: left;
+    
+}
+.card-1{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 586px;
+    
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06) ;
+    padding: 30px 42px 30px;
+    margin-bottom: 20px;
+}
+.card-1-title{
+    color: #131313;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card-1-describtion{
+    font-size: 1rem ;
+    font-weight: 400;
+    color: #727272;
+}
+.card-container{
+    width: 586px;
+}
+
+.card-section{
+    display: flex;
+    gap: 210px;
+}
+.enjoy-picture-architects{
+    display: flex;
+    flex-direction: column;
+
+}
+.enjoy-picture-architects > div > img {
+    width: 100%;
+}
+
+#narchara{
+    margin-left: -92px;
+    margin-top: -123px;
+}
+.btn-sec{
+    background-color: #FF900E;
+    padding: 45px 45px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.btn-span{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.expe{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
 @media screen and (max-width: 576px) {
     /* nav responsive */
     .nav-title{
@@ -256,7 +346,38 @@
         padding: 0px 20px;
         text-align:left;
     }
-    
+    /* responsive */
+    .card-section{
+        display: flex;
+        flex-direction: column;
+    }
+    #narchara{
+        margin-left: 0px;
+        margin-top: 0px;
+        
+    }
+    .enjoy-picture-architects > div > img {
+        width: 100%;
+    }
+    .card-container{
+        width: 350px;
+        margin: 0px auto;
+    }
+    .card-1{
+        width: 350px;
+        padding: 0px 0px 0px;
+    }
+    .card-section{
+      
+        gap: 50px;
+    }
+    .enjoy-picture-architects{
+        
+        
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
         
     
     
@@ -307,6 +428,39 @@
 .facts-describtion{
     padding: 0px 20px;
     text-align:justify;
+}
+/* responsive */
+.card-section{
+    display: flex;
+    flex-direction: column;
+}
+
+#narchara{
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+.enjoy-picture-architects > div > img {
+    width: 100%;
+}
+.card-container{
+    width: 586px;
+    margin: 0px auto;
+}
+.card-1{
+    width: 586px;
+    padding: 0px 0px 0px;
+}
+.card-section{
+  
+    gap: 30px;
+}
+.enjoy-picture-architects{
+    
+    
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
 }
